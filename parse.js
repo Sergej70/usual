@@ -71,3 +71,13 @@ console.log(parseFloat(5));
 console.log(parseFloat('5'));
 console.log(parseFloat(+5));
 console.log(parseFloat('5mm'));
+
+// NaN
+console.log(parseFloat('(5'));
+console.log(parseFloat('"5"'));
+console.log(parseFloat('[5]'));
+
+// Infinity
+console.log(parseFloat('NaN'));
+console.log(parseFloat('Infinity'));
+console.log(parseFloat('-Infinity'));
