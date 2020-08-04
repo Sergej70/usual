@@ -78,6 +78,6 @@ console.log(parseFloat('"5"'));
 console.log(parseFloat('[5]'));
 
 // Infinity
-console.log(parseFloat('NaN'));
+console.log(parseFloat('NaN'));        // NaN ?
 console.log(parseFloat('Infinity'));
-console.log(parseFloat('-Infinity'));
+console.log(parseFloat('-Infinity'));  // -Infinity ?
