@@ -37,3 +37,17 @@ console.log(a + ' << ' + 2 + ' = ', a << 2);
   // 9 << 2 =  36
 console.log(aBinary + ' << ' + 2 + ' = ' + (a << 2).toString(2));
   // 1001 << 2 = 100100
+
+console.log(a + ' << ' + 2 + ' = ', a << 2);
+  // 9 << 2 = 36
+console.log(aBinary + ' << ' + 2 + ' = '+ (a << 2).toString(2));
+  // 1001 << 2 = 100100
+
+console.log(b + ' >> ' + 2 + ' = ', b >> 2);
+  // 14 >> 2 = 3
+console.log(b + ' >>> ' + 2 + ' = ', b >>> 2);
+  // 14 >>> 2 = 3
+console.log(bBinary + ' >> ' + 2 + ' = ' + (b >> 2).toString(2));
+  // 1110 >> 2 = 11
+console.log(bBinary + ' >>> ' + 2 + ' = ' + (b >>> 2).toString(2));
+  // 1110 >>> 2 = 11
